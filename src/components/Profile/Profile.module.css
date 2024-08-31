@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: rgb(197, 207, 170);
+}
+
+.main:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.profInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
