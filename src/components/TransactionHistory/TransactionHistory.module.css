@@ -1,0 +1,43 @@
+.tableWrapper {
+  width: 360px;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.tableWrapper:hover {
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.tableHead {
+  background-color: black;
+  color: #fff;
+}
+
+.table:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.tableTh {
+  text-align: center;
+}
+
+.tableTd {
+  text-align: center;
+}
+.table {
+  border: 2px solid black;
+  width: 360px;
+  border-collapse: collapse;
+}
+
+.even {
+  background-color: #9d9d9d;
+  border: 2px solid black;
+}
+
+.odd {
+  border: 1px solid black;
+}
